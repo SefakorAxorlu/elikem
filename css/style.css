@@ -94,3 +94,85 @@ background-color: rgba(237, 246, 249, 0.5);
 .btn:hover{
   background: blue;
 }
+
+/*section what we do*/
+.items{
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+#what .items .item i{
+  background: orange;
+  color: black;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+
+/*section for who we are*/
+#who{
+  display:flex;
+}
+#who div{
+  flex: 1;
+}
+
+#who .who-img{
+  background: url("../img/img1.jpg.jpg") no-repeat center center/cover;
+}
+
+
+.bg-light{
+  background: #93cb52;
+  color: blue;
+}
+
+
+
+.bg-dark{
+color: #f4f4ff; ;
+background: #333;
+}
+
+.p-1{
+  padding: 1rem;
+} 
+
+.p-2{
+  padding: 2rem;
+}
+
+.p-3{
+  padding: 3rem;
+}
+
+.list{
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+ .list li{
+  padding:0.50rem 0;
+  border-bottom: #444;
+}
+
+
+/*client*/
+#clients{
+  display: flex;
+  margin: auto 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#clients .items img{
+  display: block;
+  margin:auto 15px;
+  width: 90px;
+height: 90px;
+}
