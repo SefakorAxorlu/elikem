@@ -140,7 +140,7 @@ text-align: center;
 
 /*section what we do*/
 .items{
-  display: flex;
+  display: block;
   padding: 1rem;
 }
 
